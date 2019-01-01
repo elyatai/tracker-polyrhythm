@@ -6,8 +6,8 @@ generates polyrhythms in tracker notations
 
 ```
 $ ruby main.rb 3 4
-row 0: 0
-row 5: 4
+row  0: 0
+row  5: 4
 row 10: 8
 
 $ ruby main.rb -R --ticks=16 8 9

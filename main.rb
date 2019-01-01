@@ -85,7 +85,7 @@ end
 # format
 out = []
 if !args['-c']
-	pad = points[-1][0] == 0 ? 1 : Math.log10(points[-1][0]).ceil
+	pad = points[-1][0] == 0 ? 1 : Math.log10(points[-1][0]).floor + 1
 	fmt = "row %#{pad}d: #{prefix}%0#{padding}#{base == 16 ? 'X' : 'd'}\n"
 	points.each do |row, tick|
 		out.push sprintf(fmt, row, tick)
