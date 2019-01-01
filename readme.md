@@ -10,15 +10,15 @@ row 0: 0
 row 5: 4
 row 10: 8
 
-$ ruby main.rb -R 8 9
+$ ruby main.rb -R --ticks=16 8 9
 row  0: Q00
-row  4: Q06
+row  4: Q08
 row  9: Q00
-row 13: Q06
+row 13: Q08
 row 18: Q00
-row 22: Q06
+row 22: Q08
 row 27: Q00
-row 31: Q06
+row 31: Q08
 
 $ ruby main.rb -cO 50 60
 ModPlug Tracker MPT
